@@ -137,41 +137,67 @@
 
 <div class="postcontent nobottommargin col_last">
 
-<div id="shop" class="shop product-1 clearfix">
 
-  <div style="background:#f5f5f5; padding:10px 20px; border-radius:5px;">
-  <h3 style="margin-bottom:0px;">Training one</h3>
-  <div class="product-price"><ins>$12.49</ins></div>
-
-  <div class="product-rating">
-<i class="icon-star3"></i>
-<i class="icon-star3"></i>
-<i class="icon-star3"></i>
-<i class="icon-star3"></i>
-<i class="icon-star-half-full"></i>
+  <div class="entry-c" style="background:#f5f5f5; padding:10px 20px; border-radius:5px;">
+<div class="entry-title">
+<h2><a href="#">Inventore voluptates velit totam ipsa tenetur</a></h2>
 </div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nulla, distinctio animi impedit repellendus dolores natus cumque libero est saepe accusantium aliquam id laudantium eaque atque cupiditate hic odio voluptatum nobis omnis harum perferendis facere obcaecati at ullam? Pariatur, magnam.</p>
-  <button class="button"><a href="training.php" style="color:#fff;">View More</a></button>
-  </div>
+<ul class="entry-meta clearfix">
+<li><span class="badge badge-warning">Popular</span></li>
+<li><a href="#"><i class="icon-time"></i>
+  <?php echo date("Y-m-d", time()) ." <b>to</b> ". date("Y-m-d", time()) ; ?>
+</a></li>
+<li><a href="#"><i class="icon-map-marker2"></i> Nairobi, Kenya</a></li>
+</ul>
+<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+<a href="#" class="btn btn-secondary" >Book</a> <a href="#" class="btn btn-danger">View More</a>
+</div>
+</div>
+
+
   <div class="divider"><i class="icon-circle"></i></div>
 
-  <div style="background:#f5f5f5; padding:10px 20px; border-radius:5px;">
-  <h3 style="margin-bottom:0px;">Training two</h3>
-  <div class="product-price"><ins>$12.49</ins></div>
-
-  <div class="product-rating">
-<i class="icon-star3"></i>
-<i class="icon-star3"></i>
-<i class="icon-star3"></i>
-<i class="icon-star3"></i>
-<i class="icon-star-half-full"></i>
+  <div class="entry-c" style="background:#f5f5f5; padding:10px 20px; border-radius:5px;">
+<div class="entry-title">
+<h2><a href="#">Inventore voluptates velit totam ipsa tenetur</a></h2>
 </div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, nulla, distinctio animi impedit repellendus dolores natus cumque libero est saepe accusantium aliquam id laudantium eaque atque cupiditate hic odio voluptatum nobis omnis harum perferendis facere obcaecati at ullam? Pariatur, magnam.</p>
-  <button class="button"><a href="training.php" style="color:#fff;">View More</a></button>
-  </div>
-
-
+<ul class="entry-meta clearfix">
+<li><span class="badge badge-warning">Popular</span></li>
+<li><a href="#"><i class="icon-time"></i>
+  <?php echo date("Y-m-d", time()) ." <b>to</b> ". date("Y-m-d", time()) ; ?>
+</a></li>
+<li><a href="#"><i class="icon-map-marker2"></i> Nairobi, Kenya</a></li>
+</ul>
+<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+<a href="#" class="btn btn-secondary" >Book</a> <a href="#" class="btn btn-danger">View More</a>
 </div>
+</div>
+
+<div class="divider"><i class="icon-circle"></i></div>
+
+<div class="entry-c" style="background:#f5f5f5; padding:10px 20px; border-radius:5px;">
+<div class="entry-title">
+<h2><a href="#">Inventore voluptates velit totam ipsa tenetur</a></h2>
+</div>
+<ul class="entry-meta clearfix">
+<li><span class="badge badge-success">New</span></li>
+<li><a href="#"><i class="icon-time"></i>
+<?php echo date("Y-m-d", time()) ." <b>to</b> ". date("Y-m-d", time()) ; ?>
+</a></li>
+<li><a href="#"><i class="icon-map-marker2"></i> Nairobi, Kenya</a></li>
+</ul>
+<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptatem, dolorem animi nisi autem blanditiis enim culpa reiciendis et explicabo tenetur voluptate rerum molestiae eaque possimus exercitationem eligendi fuga.</p>
+<a href="#" class="btn btn-secondary" >Book</a> <a href="#" class="btn btn-danger">View More</a>
+</div>
+</div>
+
+<div class="divider"><i class="icon-circle"></i></div>
+
+
+
 </div>
 
 <div class="sidebar nobottommargin">

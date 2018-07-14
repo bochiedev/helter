@@ -151,7 +151,6 @@
 <thead>
 <tr>
 <th class="cart-product-thumbnail">&nbsp;</th>
-<th class="cart-product-thumbnail">&nbsp;</th>
 <th class="cart-product-name">Service</th>
 <th class="cart-product-quantity">Period</th>
 <th class="cart-product-subtotal">Total</th>
@@ -161,9 +160,6 @@
 <tr class="cart_item">
 <td class="cart-product-remove">
 <a href="#" class="remove" title="Remove this item"><i class="icon-trash2"></i></a>
-</td>
-<td class="cart-product-thumbnail">
-<a href="#"><img width="64" height="64" src="images/shop/thumbs/small/dress-3.jpg" alt="Pink Printed Dress"></a>
 </td>
 <td class="cart-product-name">
 <a href="#">Pink Printed Dress</a>
@@ -181,9 +177,6 @@
   <td class="cart-product-remove">
   <a href="#" class="remove" title="Remove this item"><i class="icon-trash2"></i></a>
   </td>
-<td class="cart-product-thumbnail">
-<a href="#"><img width="64" height="64" src="images/shop/thumbs/small/shoes-2.jpg" alt="Checked Canvas Shoes"></a>
-</td>
 <td class="cart-product-name">
 <a href="#">Checked Canvas Shoes</a>
 </td>
@@ -200,9 +193,6 @@
   <td class="cart-product-remove">
   <a href="#" class="remove" title="Remove this item"><i class="icon-trash2"></i></a>
   </td>
-<td class="cart-product-thumbnail">
-<a href="#"><img width="64" height="64" src="images/shop/thumbs/small/tshirt-2.jpg" alt="Pink Printed Dress"></a>
-</td>
 <td class="cart-product-name">
 <a href="#">Blue Men Tshirt</a>
 </td>
