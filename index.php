@@ -3,6 +3,7 @@
 
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="author" content="SemiColonWeb" />
 
 <link href="../../../fonts.googleapis.com/css90e1.css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
@@ -13,7 +14,6 @@
 <link rel="stylesheet" href="css/animate.css" type="text/css" />
 <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 <link rel="stylesheet" href="css/responsive.css" type="text/css" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
 <link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
