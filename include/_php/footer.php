@@ -5,7 +5,7 @@
 <div class="container clearfix">
 <div class="col_half">
 <img src="images/footer-logo.png" alt="" class="footer-logo">
-Copyrights &copy; 2014 All Rights Reserved by Bropen space.
+Copyrights &copy; <?= Date('Y'); ?> All Rights Reserved by Bropen space.
 </div>
 <div class="col_half col_last tright">
 <div class="copyrights-menu copyright-links fright clearfix">
@@ -23,10 +23,8 @@ Copyrights &copy; 2014 All Rights Reserved by Bropen space.
 <script src="js/jquery.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/functions.js"></script>
-<script data-cfasync="false" src="../../cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
-<script src="js/plugins.js"></script>
+<script data-cfasync="false" src="../../cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script>
 
-<script src="js/functions.js"></script>
 
 <script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 <script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
@@ -171,6 +169,8 @@ Copyrights &copy; 2014 All Rights Reserved by Bropen space.
         overviewMapControl: false
       }
     });
+
+
 
 	</script>
 

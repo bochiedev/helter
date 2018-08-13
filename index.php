@@ -27,67 +27,9 @@
 
 <div id="wrapper" class="clearfix">
 
-<?php include "include/_php/header.php";?>
+<?php include_once "include/_php/header.php";?>
 
-
-
-<header id="header">
-<div id="header-wrap">
-<div class="container clearfix">
-<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-<div id="logo">
-<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo%402x.png" alt="Canvas Logo"></a>
-</div>
-
-<nav id="primary-menu">
-<ul>
-<li class="current"><a href="index.php">Home</a></li>
-<li ><a href="about.php">About Us</a></li>
-<li ><a href="services.php">Services</a></li>
-<li><a href="works.php">Works</a></li>
-<li><a href="contact.php">Contact Us</a></li>
-</ul>
-
-<div id="top-cart">
-<a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-<div class="top-cart-content">
-<div class="top-cart-title">
-<h4>Shopping Cart</h4>
-</div>
-<div class="top-cart-items">
-<div class="top-cart-item clearfix">
-
-<div class="top-cart-item-desc">
-<a href="#">Blue Round-Neck Tshirt</a>
-<span class="top-cart-item-price">$19.99</span>
-</div>
-</div>
-<div class="top-cart-item clearfix">
-<div class="top-cart-item-desc">
-<a href="#">Light Blue Denim Dress</a>
-<span class="top-cart-item-price">$24.99</span>
-</div>
-</div>
-</div>
-<div class="top-cart-action clearfix">
-<span class="fleft top-checkout-price">$114.95</span>
-<button class="button  button-small nomargin fright"><a href="checkout.php" style="color:#fff;">View Cart</a></button>
-</div>
-</div>
-</div>
-
-<div id="top-search">
-<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-<form action="http://themes.semicolonweb.com/html/canvas/search.html" method="get">
-<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-</form>
-</div>
-</nav>
-</div>
-</div>
-</header>
+<?php include_once "include/_php/main_header.php";?>
 
 
 <section id="slider" class="slider-element slider-parallax swiper_wrapper full-screen clearfix">
@@ -97,8 +39,8 @@
 <div class="swiper-slide dark" style="background-image: url('images/slider/swiper/1.jpg');">
 <div class="container clearfix">
 <div class="slider-caption slider-caption-center">
-<h2 data-caption-animate="fadeInUp">Welcome to Brospen Space</h2>
-<p class="d-none d-sm-block" data-caption-animate="fadeInUp" data-caption-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on your own Canvas.</p>
+<h2 data-caption-animate="fadeInUp">Welcome to BropenSpace</h2>
+<p class="d-none d-sm-block" data-caption-animate="fadeInUp" data-caption-delay="200">Training Courses</p>
 </div>
 </div>
 </div>
@@ -109,27 +51,96 @@
 <p class="d-none d-sm-block" data-caption-animate="fadeInUp" data-caption-delay="200">Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Powerful Layout with Responsive functionality that can be adapted to any screen size.</p>
 </div>
 </div>
-<div class="video-wrap">
-<video id="slide-video" poster="images/videos/deskwork.jpg" preload="auto" loop autoplay muted>
-<source src='images/videos/deskwork.webm' type='video/webm' />
-<source src='images/videos/deskwork.mp4' type='video/mp4' />
-</video>
-<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
-</div>
-</div>
-<div class="swiper-slide" style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;">
-<div class="container clearfix">
-<div class="slider-caption">
-<h2 data-caption-animate="fadeInUp">Great Performance</h2>
-<p class="d-none d-sm-block" data-caption-animate="fadeInUp" data-caption-delay="200">You'll be surprised to see the Final Results of your Creation &amp; would crave for more.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+
 </div>
 <a href="#" data-scrollto="#content" data-offset="100" class="dark one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+</div>
+</section>
+
+<section id="content" style="background:#292929!important;">
+<div class="content-wrap" style="padding:20px">
+<div class="container clearfix" >
+
+<div class="col_one_sixth">
+  <label for="template-contactform-service">Category</label>
+<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+<option value="">-- Select One --</option>
+<option value="Wordpress">Wordpress</option>
+<option value="PHP / MySQL">PHP / MySQL</option>
+<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+<option value="Graphic Design">Graphic Design</option>
+</select>
+</div>
+
+<div class="col_one_sixth">
+  <label for="template-contactform-service">Venue</label>
+  <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+  <option value="">-- Select One --</option>
+  <option value="Wordpress">Wordpress</option>
+  <option value="PHP / MySQL">PHP / MySQL</option>
+  <option value="HTML5 / CSS3">HTML5 / CSS3</option>
+  <option value="Graphic Design">Graphic Design</option>
+  </select>
+</div>
+
+<div class="col_one_sixth">
+  <label for="template-contactform-service">Month</label>
+<select  name="" class="sm-form-control">
+<option value="">-- Select One --</option>
+<option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+</select>
+</div>
+
+<div class="col_one_sixth">
+  <label for="template-contactform-service">Year</label>
+<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+<option value="">-- Select One --</option>
+<option value="<?= Date('Y'); ?>"><?= Date('Y'); ?></option>
+<option value="<?= Date('Y'); ?>"><?= Date('Y')+1; ?></option>
+<option value="<?= Date('Y'); ?>"><?= Date('Y')+2; ?></option>
+
+</select>
+</div>
+
+<div class="col_one_sixth">
+  <label for="template-contactform-service">Duration</label>
+<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+<option value="">-- Select One --</option>
+<option value="Wordpress">Wordpress</option>
+<option value="PHP / MySQL">PHP / MySQL</option>
+<option value="HTML5 / CSS3">HTML5 / CSS3</option>
+<option value="Graphic Design">Graphic Design</option>
+</select>
+</div>
+<div class="col_one_sixth col_last">
+  <label for="template-contactform-service">&nbsp; &nbsp; &nbsp;</label>
+
+
+  <button type="button" class="button button-mini btn-sm btn-block">Search</button>
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section id="content" >
+<div class="content-wrap" >
+<div class="container clearfix" >
+
+
+</div>
 </div>
 </section>
 

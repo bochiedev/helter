@@ -23,74 +23,10 @@
 <div id="wrapper" class="clearfix">
 
 
-  <?php include "include/_php/header.php";?>
+  <?php include_once "include/_php/header.php";?>
 
+  <?php include_once "include/_php/main_header.php";?>
 
-
-  <header id="header">
-  <div id="header-wrap">
-  <div class="container clearfix">
-  <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-  <div id="logo">
-  <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-  <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo%402x.png" alt="Canvas Logo"></a>
-  </div>
-
-  <nav id="primary-menu">
-  <ul>
-  <li ><a href="index.php">Home</a></li>
-  <li class="current"><a href="about.php">About Us</a></li>
-  <li ><a href="services.php">Services</a></li>
-  <li><a href="works.php">Trainings</a></li>
-  <li><a href="contact.php">Contact Us</a></li>
-  </ul>
-
-  <div id="top-cart">
-  <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
-  <div class="top-cart-content">
-  <div class="top-cart-title">
-  <h4>Shopping Cart</h4>
-  </div>
-  <div class="top-cart-items">
-  <div class="top-cart-item clearfix">
-  <div class="top-cart-item-image">
-  <a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-  </div>
-  <div class="top-cart-item-desc">
-  <a href="#">Blue Round-Neck Tshirt</a>
-  <span class="top-cart-item-price">$19.99</span>
-  <span class="top-cart-item-quantity">x 2</span>
-  </div>
-  </div>
-  <div class="top-cart-item clearfix">
-  <div class="top-cart-item-image">
-  <a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-  </div>
-  <div class="top-cart-item-desc">
-  <a href="#">Light Blue Denim Dress</a>
-  <span class="top-cart-item-price">$24.99</span>
-  <span class="top-cart-item-quantity">x 3</span>
-  </div>
-  </div>
-  </div>
-  <div class="top-cart-action clearfix">
-  <span class="fleft top-checkout-price">$114.95</span>
-  <button class="button button-3d button-small nomargin fright">View Cart</button>
-  </div>
-  </div>
-  </div>
-
-  <div id="top-search">
-  <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-  <form action="http://themes.semicolonweb.com/html/canvas/search.html" method="get">
-  <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-  </form>
-  </div>
-  </nav>
-  </div>
-  </div>
-  </header>
 
 
 <section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('images/about/parallax.jpg'); background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 400px;" data-top-bottom="background-position:0px -500px;">
@@ -151,132 +87,9 @@
 </div>
 </div>
 </div>
-<div class="row common-height clearfix">
-<div class="col-md-5 col-padding" style="background: url('images/team/3.jpg') center center no-repeat; background-size: cover;"></div>
-<div class="col-md-7 col-padding">
-<div>
-<div class="heading-block">
-<span class="before-heading color">CEO &amp; Co-Founder</span>
-<h3>John Doe</h3>
-</div>
-<div class="row clearfix">
-<div class="col-lg-6">
-<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-<i class="icon-facebook"></i>
-<i class="icon-facebook"></i>
-</a>
-<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-<i class="icon-twitter"></i>
-<i class="icon-twitter"></i>
-</a>
-<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-<i class="icon-gplus"></i>
-<i class="icon-gplus"></i>
-</a>
-</div>
-<div class="col-lg-6">
-<ul class="skills">
-<li data-percent="80">
-<span>Wordpress</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="60">
-<span>CSS3</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="90">
-<span>HTML5</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="70">
-<span>jQuery</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="85">
-<span>Ruby</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="85" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row common-height bottommargin-lg clearfix">
-<div class="col-md-7 col-padding" style="background-color: #F5F5F5;">
-<div>
-<div class="heading-block">
-<span class="before-heading color">Developer &amp; Evangelist</span>
-<h3>Mary Jane</h3>
-</div>
-<div class="row clearfix">
-<div class="col-lg-6">
-<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-<i class="icon-facebook"></i>
-<i class="icon-facebook"></i>
-</a>
-<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-<i class="icon-twitter"></i>
-<i class="icon-twitter"></i>
-</a>
-<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-<i class="icon-gplus"></i>
-<i class="icon-gplus"></i>
-</a>
-</div>
-<div class="col-lg-6">
-<ul class="skills">
-<li data-percent="80">
-<span>Wordpress</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="80" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="60">
-<span>CSS3</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="60" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="90">
-<span>HTML5</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="90" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="70">
-<span>jQuery</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="70" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-<li data-percent="85">
-<span>Ruby</span>
-<div class="progress">
-<div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="85" data-refresh-interval="30" data-speed="1100"></span>%</div></div>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-5 col-padding" style="background: url('images/team/8.jpg') center center no-repeat; background-size: cover;"></div>
-</div>
+
+
+
 <div class="container clearfix">
 <div class="clear"></div>
 <div class="heading-block center">
@@ -289,12 +102,6 @@
 <li><a href="http://logofaves.com/2014/01/ladera-granola/"><img src="images/clients/4.png" alt="Clients"></a></li>
 <li><a href="http://logofaves.com/2014/02/hershel-farms/"><img src="images/clients/5.png" alt="Clients"></a></li>
 <li><a href="http://logofury.com/logo/food-fight-radio.html"><img src="images/clients/6.png" alt="Clients"></a></li>
-<li><a href="http://logofury.com/"><img src="images/clients/7.png" alt="Clients"></a></li>
-<li><a href="http://logofury.com/logo/up-travel.html"><img src="images/clients/8.png" alt="Clients"></a></li>
-<li><a href="http://logofury.com/logo/caffi-bardi.html"><img src="images/clients/9.png" alt="Clients"></a></li>
-<li><a href="http://logofury.com/logo/bignix-design.html"><img src="images/clients/10.png" alt="Clients"></a></li>
-<li><a href="http://logofury.com/"><img src="images/clients/11.png" alt="Clients"></a></li>
-<li><a href="http://logofury.com/"><img src="images/clients/12.png" alt="Clients"></a></li>
 </ul>
 </div>
 <div class="section footer-stick">
