@@ -18,13 +18,13 @@
 <li class="current"><a href="index.php">Home</a></li>
 <li ><a href="about.php">About Us</a></li>
 <li class="mega-menu"><a href="works.php"><div>Training Categories</div></a>
-<!-- <li><a href="works.php">Training Categories</a> -->
+<!-- <li><a href="works.php">Training Categories</a> 
   <div class="mega-menu-content style-2 clearfix">
   <ul class="mega-menu-column col-lg-3">
-  <li class="mega-menu-title"><a href="#"><div>Introduction</div></a>
+  <li class="mega-menu-title"><a href="#"><div>SPECIALIST AREA</div></a>
   <ul>
-  <li><a href="about.html"><div>About Us</div></a></li>
-  <li><a href="about-2.html"><div>About Us - Layout 2</div></a></li>
+  <li><a href="about.html"><div>10 - Day Training</div></a></li>
+  <li><a href="about-2.html"><div>15 - Day Training</div></a></li>
   <li><a href="about-me.html"><div>About Me</div></a></li>
   <li><a href="team.html"><div>Team Members</div></a></li>
   <li><a href="jobs.html"><div>Careers</div></a></li>
@@ -35,12 +35,12 @@
   </li>
   </ul>
   <ul class="mega-menu-column col-lg-3">
-  <li class="mega-menu-title"><a href="#"><div>Utility</div></a>
+  <li class="mega-menu-title"><a href="#"><div>MANAGEMENT</div></a>
   <ul>
-  <li><a href="services.html"><div>Services - Layout 1</div></a></li>
-  <li><a href="services-2.html"><div>Services - Layout 2</div></a></li>
-  <li><a href="services-3.html"><div>Services - Layout 3</div></a></li>
-  <li><a href="faqs.html"><div>FAQs - Layout 1</div></a></li>
+  <li><a href="services.html"><div>Management & leadership</div></a></li>
+  <li><a href="services-2.html"><div>Strategy & Planning</div></a></li>
+  <li><a href="services-3.html"><div>Risk Managent</div></a></li>
+  <li><a href="faqs.html"><div>Customer Service</div></a></li>
   <li><a href="faqs-2.html"><div>FAQs - Layout 2</div></a></li>
   <li><a href="faqs-3.html"><div>FAQs - Layout 3</div></a></li>
   <li><a href="faqs-4.html"><div>FAQs - Layout 4</div></a></li>
@@ -49,11 +49,11 @@
   </li>
   </ul>
   <ul class="mega-menu-column col-lg-3">
-  <li class="mega-menu-title"><a href="#"><div>Layout Grids</div></a>
+  <li class="mega-menu-title"><a href="#"><div>FUNCTONAL</div></a>
   <ul>
-  <li><a href="full-width.html"><div>Full Width</div></a></li>
-  <li><a href="full-width-wide.html"><div>Full Width - Wide</div></a></li>
-  <li><a href="right-sidebar.html"><div>Right Sidebar</div></a></li>
+  <li><a href="full-width.html"><div>Project Management</div></a></li>
+  <li><a href="full-width-wide.html"><div>Financing & Management</div></a></li>
+  <li><a href="right-sidebar.html"><div>Contracts Management</div></a></li>
   <li><a href="left-sidebar.html"><div>Left Sidebar</div></a></li>
   <li><a href="both-sidebar.html"><div>Both Sidebar</div></a></li>
   <li><a href="both-right-sidebar.html"><div>Both Right Sidebar</div></a></li>
@@ -63,11 +63,11 @@
   </li>
   </ul>
   <ul class="mega-menu-column col-lg-3">
-  <li class="mega-menu-title"><a href="#"><div>Miscellaneous</div></a>
+  <li class="mega-menu-title"><a href="#"><div>TECHNCAL</div></a>
   <ul>
-  <li><a href="login-register.html"><div>Login/Register</div></a></li>
-   <li><a href="login-register-2.html"><div>Login/Register - Style 2</div></a></li>
-  <li><a href="login-register-3.html"><div>Login/Register - Style 3</div></a></li>
+  <li><a href="login-register.html"><div>Electrical Engineering</div></a></li>
+   <li><a href="login-register-2.html"><div>Mechanical Engineering</div></a></li>
+  <li><a href="login-register-3.html"><div>Maintenance Engineering</div></a></li>
   <li><a href="login-1.html"><div>Login - Style 1</div></a></li>
   <li><a href="login-2.html"><div>Login - Style 2</div></a></li>
   <li><a href="404.html"><div>404 - Simple Layout</div></a></li>
@@ -77,7 +77,7 @@
   </li>
   </ul>
   </div>
-</li>
+</li> -->
 <li><a href="contact.php">Contact Us</a></li>
 </ul>
 

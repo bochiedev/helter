@@ -4,7 +4,7 @@
 <div id="copyrights">
 <div class="container clearfix">
 <div class="col_half">
-<img src="images/footer-logo.png" alt="" class="footer-logo">
+<img src="images/footer-log.png" alt="BropenSpace" class="footer-logo">
 Copyrights &copy; <?= Date('Y'); ?> All Rights Reserved by Bropen space.
 </div>
 <div class="col_half col_last tright">

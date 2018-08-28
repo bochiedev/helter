@@ -65,10 +65,10 @@
   <label for="template-contactform-service">Category</label>
 <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
 <option value="">-- Select One --</option>
-<option value="Wordpress">Wordpress</option>
-<option value="PHP / MySQL">PHP / MySQL</option>
-<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-<option value="Graphic Design">Graphic Design</option>
+<option value="Customer Service">Customer Service</option>
+<option value="Human Resource Management">Human Resource Management</option>
+<option value="Health, Safety & Environment">Health, Safety & Environment</option>
+<option value="Financing & Budgeting">Financing & Budgeting</option>
 </select>
 </div>
 
@@ -76,10 +76,10 @@
   <label for="template-contactform-service">Venue</label>
   <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
   <option value="">-- Select One --</option>
-  <option value="Wordpress">Wordpress</option>
-  <option value="PHP / MySQL">PHP / MySQL</option>
-  <option value="HTML5 / CSS3">HTML5 / CSS3</option>
-  <option value="Graphic Design">Graphic Design</option>
+  <option value="Wordpress">Nairobi</option>
+  <option value="PHP / MySQL">Mombasa</option>
+  <option value="HTML5 / CSS3">Kisumu</option>
+  <option value="Graphic Design">Eldoret</option>
   </select>
 </div>
 
@@ -117,10 +117,11 @@
   <label for="template-contactform-service">Duration</label>
 <select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
 <option value="">-- Select One --</option>
-<option value="Wordpress">Wordpress</option>
-<option value="PHP / MySQL">PHP / MySQL</option>
-<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-<option value="Graphic Design">Graphic Design</option>
+<!-- <option value="Wordpress">1-Day</option> -->
+<option value="2-Day">2-Day</option>
+<option value="3-Day">3-Day</option>
+<option value="4-Day">4-Day</option>
+<option value="5-Day">5-Day</option>
 </select>
 </div>
 <div class="col_one_sixth col_last">

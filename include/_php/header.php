@@ -5,7 +5,7 @@
 <div class="top-links">
 <ul>
 <li><a href="faqs.php">FAQs</a></li>
-<li><a href="login-register.php">Join Our Team</a>
+<li><a href="login-register.php">Register as a trainer</a>
 <li><a href="login-register.php">Login</a>
 </li>
 </ul>

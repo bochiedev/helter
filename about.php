@@ -46,24 +46,24 @@
 <div class="container clearfix">
 <div class="col_one_third">
 <div class="heading-block fancy-title nobottomborder title-bottom-border">
-<h4>Why choose <span>Us</span>.</h4>
+<h4>Who We <span>Are</span>.</h4>
 </div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+<p>Bropen Space is an online Training advertising site purposely for Personal Development. We partner with Training providers in delivering their courses as Open-House Training or In-House Training to Employers and Individuals in East and Central Africa.</p>
 </div>
 <div class="col_one_third">
 <div class="heading-block fancy-title nobottomborder title-bottom-border">
-<h4>Our <span>Mission</span>.</h4>
+<h4>What We <span>Do</span>.</h4>
 </div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+<p>The site provides a platform to Training providers where they share their training calendar through advertising on our platform to reach out to companies that support and would want to support their talents in personal development and to the individuals who want to empower themselves in personal development. </p>
 </div>
 <div class="col_one_third col_last">
 <div class="heading-block fancy-title nobottomborder title-bottom-border">
-<h4>What we <span>Do</span>.</h4>
+<h4>More About <span>Us</span>.</h4>
 </div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
+<p>Additionally, this is a platform for companies to strategically plan their training calendar by booking training in advance for their employees. The platform enables organizations to budget their training needs in line with the training advertised on the platform by the training providers.   </p>
 </div>
 </div>
-<div class="section nomargin">
+<!-- <div class="section nomargin">
 <div class="container clearfix">
 <div class="col_one_fourth nobottommargin center" data-animate="bounceIn">
 <i class="i-plain i-xlarge divcenter icon-line2-directions"></i>
@@ -86,14 +86,14 @@
 <h5>Hours of Coding</h5>
 </div>
 </div>
-</div>
+</div> -->
 
 
 
 <div class="container clearfix">
 <div class="clear"></div>
 <div class="heading-block center">
-<h4>Our Clients</h4>
+<h4>Our Partners</h4>
 </div>
 <ul class="clients-grid grid-6 nobottommargin clearfix">
 <li><a href="http://logofury.com/logo/enzo.html"><img src="images/clients/1.png" alt="Clients"></a></li>
