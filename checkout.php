@@ -61,7 +61,69 @@
   </ul>
   <div>
   <div id="ptab1" aria-labelledby="ui-id-1" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="false">
-  <div class="table-responsive">
+		<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+		<div id="paypal-button-container"></div>
+		<script>
+
+		    // Render the PayPal button
+
+		    paypal.Button.render({
+
+		        // Set your environment
+
+		        env: 'sandbox', // sandbox | production
+
+		        // Specify the style of the button
+
+		        style: {
+		            layout: 'vertical',  // horizontal | vertical
+		            size:   'medium',    // medium | large | responsive
+		            shape:  'rect',      // pill | rect
+		            color:  'gold'       // gold | blue | silver | black
+		        },
+
+		        // Specify allowed and disallowed funding sources
+		        //
+		        // Options:
+		        // - paypal.FUNDING.CARD
+		        // - paypal.FUNDING.CREDIT
+		        // - paypal.FUNDING.ELV
+
+		        funding: {
+		            allowed: [ paypal.FUNDING.CARD, paypal.FUNDING.CREDIT ],
+		            disallowed: [ ]
+		        },
+
+		        // PayPal Client IDs - replace with your own
+		        // Create a PayPal app: https://developer.paypal.com/developer/applications/create
+
+		        client: {
+		            sandbox:    'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R',
+		            production: '<insert production client id>'
+		        },
+
+		        payment: function(data, actions) {
+		            return actions.payment.create({
+		                payment: {
+		                    transactions: [
+		                        {
+		                            amount: { total: '0.01', currency: 'USD' }
+		                        }
+		                    ]
+		                }
+		            });
+		        },
+
+		        onAuthorize: function(data, actions) {
+		            return actions.payment.execute().then(function() {
+		                window.alert('Payment Complete!');
+		            });
+		        }
+
+		    }, '#paypal-button-container');
+
+		</script>
+	<div class="table-responsive">
   <table class="table cart">
   <thead>
   <tr>
@@ -128,9 +190,8 @@
   <a href="#" class="button button-3d nomargin fright tab-linker" rel="2">Checkout ⇒</a>
   </div>
   <div id="ptab2" aria-labelledby="ui-id-2" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" style="display: none;" aria-hidden="true">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, deleniti, atque soluta ratione blanditiis maxime at architecto laudantium eius eaque distinctio dolorem voluptatem nam ab molestias velit nemo. Illo, hic.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, modi, odit, aspernatur veritatis ipsum molestiae impedit iusto blanditiis voluptatem ab voluptas ullam expedita repellendus porro assumenda non deserunt repellat eius rem dolorem corporis temporibus voluptatibus ut! Quod, corporis, tempora, dolore, sint earum minus deserunt eveniet natus error magnam aliquam nemo.</p>
-  <div class="line"></div>
+	
+<div class="line"></div>
   <a href="#" class="button button-3d nomargin tab-linker" rel="1">Previous</a>
   <a href="#" class="button button-3d nomargin fright tab-linker" rel="3">Pay Now</a>
   </div>
